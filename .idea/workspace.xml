@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547ae37a-7808-4892-98db-2e375f1602cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_preporocess_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_preporocess_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/nasz_dziennik/wirus/1_body_cleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/nasz_dziennik/wirus/1_body_cleaned.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_entropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="2dd4a16f-6252-4a69-8723-794b46de2f91" />
   <component name="ProjectId" id="1Wqvq31By42wCRvjmMtT9Ur6Nbp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579890127217</updated>
-      <workItem from="1579890133159" duration="1463000" />
+      <workItem from="1579890133159" duration="4661000" />
     </task>
     <servers />
   </component>
