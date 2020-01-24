@@ -46,6 +46,10 @@ output[:200]
 lemmas = PreprocessText.find_lemmas(output)
 lemmas[:10]
 
-process1 = PreprocessText.whole_proces_polish(dir, file)
+process1 = class_preporocess_text.whole_proces_polish(dir, file)
+
+import class_preporocess_text
+
+class_preporocess_text.dupa("bbb")
 
 
