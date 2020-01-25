@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="547ae37a-7808-4892-98db-2e375f1602cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_preporocess_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_preporocess_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/text_entropy-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/text_entropy-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/text_entropy-checkpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/text_entropy-checkpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_preporocess_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/PreprocessText.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/nasz_dziennik/wirus/1_body_cleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/nasz_dziennik/wirus/1_body_cleaned.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_entropy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_entropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy.py" afterDir="false" />
     </list>
@@ -51,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579890127217</updated>
-      <workItem from="1579890133159" duration="5040000" />
+      <workItem from="1579890133159" duration="7037000" />
     </task>
     <servers />
   </component>

@@ -14,7 +14,7 @@
 #     name: python3
 # ---
 
-from class_preporocess_text import PreprocessText
+from PreprocessText import PreprocessText
 
 
 import os

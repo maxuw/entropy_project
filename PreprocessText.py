@@ -1,5 +1,6 @@
 import os
 import re
+import string
 
 os.environ['PATH'] = os.environ['PATH'] + ':udpipe-1.2.0-bin/bin-linux64/'
 
@@ -10,7 +11,7 @@ def read_files(file_name, dir):
 
     return text
 
-def process(string):
+def remove_empty_linesc(string):
     string = string.splitlines()
 
     new_string = []
@@ -20,14 +21,18 @@ def process(string):
 
     return new_string[0], new_string[1], new_string[2:]
 
-def join_lines(string):
+def join_lines(string_):
 
     string_long = ""
-    for l in string:
+    for l in string_:
         string_long = string_long + " " + l
 
     return string_long
 
+def remove_punctuation(string_):
+    string_ = string_.translate(str.maketrans('', '', string.punctuation))
+    string_ = string_.replace("–", " ")
+    return string_
 
 def write_body_tofile(dir, file_name, text):
     print(file_name)
@@ -54,9 +59,10 @@ def find_lemmas(string_):
 
 def whole_proces_polish(dir, filename):
     text_from_file = read_files(filename, dir)
-    body_from_file = process(text_from_file)[2]
+    body_from_file = remove_empty_linesc(text_from_file)[2]
     joined_body = join_lines(body_from_file)
-    new_filename = write_body_tofile(dir, filename, joined_body)
+    body_without_punctuation = remove_punctuation(joined_body)
+    new_filename = write_body_tofile(dir, filename, body_without_punctuation)
     udpipe_output = run_udpipe(new_filename)
     lemmas = find_lemmas(udpipe_output)
     return lemmas

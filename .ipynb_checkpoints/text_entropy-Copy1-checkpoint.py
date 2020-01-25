@@ -13,7 +13,7 @@
 #     name: python3
 # ---
 
-import PreprocessText
+from PreprocessText import PreprocessText
 
 dir = "teksty/nasz_dziennik/wirus/"
 
@@ -23,7 +23,7 @@ file_1 = PreprocessText.read_files(file, dir)
 
 file_1[:100]
 
-processed_inner_text = PreprocessText.remove_empty_linesc(file_1)[2]
+processed_inner_text = PreprocessText.process(file_1)[2]
 
 processed_inner_text
 
@@ -31,17 +31,9 @@ body1 = PreprocessText.join_lines(processed_inner_text)
 
 body1
 
-import string
-
-body1.translate(str.maketrans('', '', string.punctuation))
 
 
-
-body_nopunct = PreprocessText.remove_punctuation(body1)
-
-body_nopunct
-
-filename = PreprocessText.write_body_tofile(dir, file, body_nopunct)
+filename = PreprocessText.write_body_tofile(dir, file, body1)
 filename
 
 output = PreprocessText.run_udpipe(filename)
@@ -54,7 +46,11 @@ output[:200]
 lemmas = PreprocessText.find_lemmas(output)
 lemmas[:10]
 
-process1 = PreprocessText.whole_proces_polish("teksty", file)
+process1 = class_preporocess_text.whole_proces_polish(dir, file)
+
+import PreprocessText
+
+PreprocessText.dupa("bbb")
 
 process1
 
