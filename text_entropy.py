@@ -54,7 +54,7 @@ output[:200]
 lemmas = PreprocessText.find_lemmas(output)
 lemmas[:10]
 
-process1 = PreprocessText.whole_proces_polish("teksty", file)
+process1 = PreprocessText.whole_proces_polish("teksty/gazeta_wyborcza/wirus/", file)
 
 process1
 
