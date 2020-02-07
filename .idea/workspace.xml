@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547ae37a-7808-4892-98db-2e375f1602cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/text_entropy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_entropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/text_entropy_2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/text_entropy_2-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntropyCount.py" beforeDir="false" afterPath="$PROJECT_DIR$/EntropyCount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreprocessText.py" beforeDir="false" afterPath="$PROJECT_DIR$/PreprocessText.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/1_body_cleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/1_body_cleaned.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_entropy_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy_2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_entropy_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +57,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579890127217</updated>
-      <workItem from="1579890133159" duration="7152000" />
+      <workItem from="1579890133159" duration="14564000" />
+      <workItem from="1581025422701" duration="748000" />
     </task>
     <servers />
   </component>
@@ -61,9 +70,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="913" y="171" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579890464177" />
-    <state x="648" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1579890348260">
+    <state x="648" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581025422673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="648" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579890348260" />
+    <state x="648" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581025422673" />
   </component>
 </project>
