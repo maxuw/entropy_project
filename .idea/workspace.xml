@@ -2,16 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547ae37a-7808-4892-98db-2e375f1602cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/text_entropy_2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/text_entropy_2-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntropyCount.py" beforeDir="false" afterPath="$PROJECT_DIR$/EntropyCount.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreprocessText.py" beforeDir="false" afterPath="$PROJECT_DIR$/PreprocessText.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_write_files.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/load_write_files.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/24.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/25.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/26.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/27.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/28.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/29.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/30.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/31.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/32.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/33.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/34.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/35.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/36.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/37.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/38.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/39.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/40.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/41.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/41.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/42.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/42.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/44.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/44.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/45.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/45.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/46.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/46.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/47.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/47.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/all_articles/9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/karty/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/prezydent/8.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/1_body_cleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/1_body_cleaned.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/wirus/5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_entropy_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy_2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_entropy_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teksty/gazeta_wyborcza/więc/9.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579890127217</updated>
       <workItem from="1579890133159" duration="14564000" />
-      <workItem from="1581025422701" duration="748000" />
+      <workItem from="1581025422701" duration="1343000" />
     </task>
     <servers />
   </component>
