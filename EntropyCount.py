@@ -29,3 +29,59 @@ def calculate_entropy_for_all_words(list_words):
             sum_entropies += entropy_specific_word
             words_calculated.append(specific_word)
     return -sum_entropies, amount_tokens
+
+
+## ENTROPY RATE
+
+def find_L_value_for_word(word_position, text):
+    places_word_in_list = find_word_in_list(text[word_position], text)
+    #     print(places_word_in_list)
+    #     print(type(places_word_in_list))
+    #     print(len(places_word_in_list))
+
+    if len(places_word_in_list) < 2:
+        L = 1
+
+    elif places_word_in_list[0] == word_position:
+        L = 1
+
+    else:
+        places_before = [i for i in places_word_in_list if i < word_position]
+
+        if len(places_before) < 2:
+
+            #             print("places before list:")
+            #             print(places_before)
+
+            before_word_max = places_before[0]
+
+
+        else:
+            before_word_max = max(places_before)
+
+        #         print("before_word_max: " + str(before_word_max))
+        L = word_position - before_word_max + 1
+
+    return L
+
+def find_word_in_list(word, text):
+    return [i for i, x in enumerate(text) if x == word]
+
+def entropy_rate_calculate(text):
+    # L_values = []
+    right_side = []
+    for i in range(len(text)):
+        if i == 0:
+            pass
+        else:
+            log2_i = np.log2(i + 1)
+            L = find_L_value_for_word(i, text)
+
+            # L_values.append(L)
+
+            right_side.append(log2_i / L)
+
+    sum_right_side = sum(right_side)
+    full_equation = sum_right_side / len(text)
+
+    return full_equation
