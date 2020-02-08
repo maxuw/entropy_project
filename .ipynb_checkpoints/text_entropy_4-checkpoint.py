@@ -53,7 +53,7 @@ def whole_preprocess_entrpy_entrate(dir_, articles_amount, paper_name):
         file = str(n) + ".txt"
 
         prep = PreprocessText.whole_proces_polish(dir_, file)
-        entropy, amount_tokens = EntropyCount.calculate_entropy_for_all_words(prep)
+        entropy, amount_tokens = EntropyCount.EntropyCount.calculate_entropy_for_all_words(prep)
 
         list_this = []
         list_this.append(n)

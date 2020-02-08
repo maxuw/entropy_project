@@ -49,8 +49,8 @@ def remove_punctuation(string_, verbose=False):
     return string_
 
 def write_body_tofile(dir, file_name, text):
-    print(file_name)
-    print(file_name.split(".")[0])
+    # print(file_name)
+    # print(file_name.split(".")[0])
     file_name_clean = dir + file_name.split(".")[0] + "_body_cleaned.txt"
 
     with open(file_name_clean, "w") as f:
@@ -74,39 +74,38 @@ def run_udpipe(file_name, verbose=False):
 
 def find_lemmas(string_, verbose=False):
     matches_lemmas_all = re.findall(r'[0-9]+\t.*?\t(.*?)\t[A-Z][A-Z]+', string_)
-
     if verbose == True:
         print(matches_lemmas_all[:20])
-
     return matches_lemmas_all
 
-def whole_proces_polish(dir, filename, verbose=False):
+def preprocess_article(dir, filename, verbose=False):
     text_from_file = read_files(filename, dir, verbose)
     body_from_file = remove_empty_linesc(text_from_file, verbose)[2]
     joined_body = join_lines(body_from_file, verbose)
     body_without_punctuation = remove_punctuation(joined_body, verbose)
     new_filename = write_body_tofile(dir, filename, body_without_punctuation)
+
     udpipe_output = run_udpipe(new_filename, verbose)
     lemmas = find_lemmas(udpipe_output, verbose)
     return lemmas
 
 
-def preprocess_paper(dir_, articles_amount, paper_name):
-    list_articles = []
-
-    for n in range(articles_amount):
-        file = str(n) + ".txt"
-
-        prep = whole_proces_polish(dir_, file)
-        entropy, amount_tokens = EntropyCount.calculate_entropy_for_all_words(prep)
-
-        list_this = []
-        list_this.append(n)
-        list_this.append(paper_name)
-        list_this.append(prep[:3])
-        list_this.append(amount_tokens)
-        list_this.append(entropy)
-
-        list_articles.append(list_this)
-
-    return list_articles
+# def preprocess_all articles(dir_, articles_amount, paper_name):
+#     list_articles = []
+#
+#     for n in range(articles_amount):
+#         file = str(n) + ".txt"
+#
+#         prep = whole_proces_polish(dir_, file)
+#         entropy, amount_tokens = EntropyCount.calculate_entropy_for_all_words(prep)
+#
+#         list_this = []
+#         list_this.append(n)
+#         list_this.append(paper_name)
+#         list_this.append(prep[:3])
+#         list_this.append(amount_tokens)
+#         list_this.append(entropy)
+#
+#         list_articles.append(list_this)
+#
+#     return list_articles
