@@ -1,0 +1,13 @@
+Korpus
+Korpus skłąda się z +- po 50 losowych artykułów Naszego Dziennika i Gazety Wyborczej.
+
+
+Analiza entropii
+Entropia dla GW jest trochę wyższa, ale nie jest to wielka różnica.
+
+Analiza współczynnika entropii (Entropy rate)
+Również jest trochę wyższa dla GW.
+
+Korelacja entropi w współczynnika entropii
+W przypadku ND kropki są daleko linii regresji i właściwie jest bardzo duży błąd przewidywania.
+W przypadku GW jest lepiej i błąd przewidywanie jest mniejszy. W obu przypadkach wykres nie układa się po linii regresji tak jak w artykule Bentza et al, który postuluje silną relację pomiędzy wymi zmiennymi.

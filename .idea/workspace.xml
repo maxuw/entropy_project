@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="547ae37a-7808-4892-98db-2e375f1602cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreprocessText.py" beforeDir="false" afterPath="$PROJECT_DIR$/PreprocessText.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bible_beginning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/bible_beginning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_entropy_3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy_3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_entropy_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entropy_entrate_GW.png" beforeDir="false" afterPath="$PROJECT_DIR$/entropy_entrate_GW.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entropy_entrate_ND.png" beforeDir="false" afterPath="$PROJECT_DIR$/entropy_entrate_ND.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entropy_papers.png" beforeDir="false" afterPath="$PROJECT_DIR$/entropy_papers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mytable.png" beforeDir="false" afterPath="$PROJECT_DIR$/mytable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_entropy_5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy_5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_entropy_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_entropy_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tokens_entropy.png" beforeDir="false" afterPath="$PROJECT_DIR$/tokens_entropy.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
       <updated>1579890127217</updated>
       <workItem from="1579890133159" duration="14564000" />
       <workItem from="1581025422701" duration="4029000" />
-      <workItem from="1581170517983" duration="2194000" />
+      <workItem from="1581170517983" duration="3212000" />
     </task>
     <servers />
   </component>

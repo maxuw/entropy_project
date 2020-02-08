@@ -17,6 +17,7 @@
 import PreprocessText
 import EntropyCount
 
+import numpy as np
 from sklearn.linear_model import LinearRegression
 
 
@@ -78,7 +79,7 @@ def whole_preprocess_entrpy_entrate(dir_, articles_amount, paper_name):
 # +
 dir_ = "teksty/nasz_dziennik/all_articles/"
 paper_name = "Nasz Dziennik"
-articles_amount = 5 #52
+articles_amount = 52 #52
 
 list_nasz = whole_preprocess_entrpy_entrate(dir_, articles_amount, paper_name)
 
@@ -94,7 +95,7 @@ df_nasz[:10]
 # +
 dir_ = "teksty/gazeta_wyborcza/all_articles/"
 paper_name = "Gazeta Wyborcza"
-articles_amount = 5 #48
+articles_amount = 48 #48
 
 list_gw = whole_preprocess_entrpy_entrate(dir_, articles_amount, paper_name)
 
@@ -140,8 +141,6 @@ fig.patch.set_visible(False)
 ax.axis('off')
 ax.axis('tight')
 
-df = pd.DataFrame(np.random.randn(10, 4), columns=list('ABCD'))
-
 ax.table(cellText=df_mean.values, colLabels=df_mean.columns, loc='center')
 
 fig.tight_layout()
@@ -185,7 +184,7 @@ df_nd_tokens[:10]
 # -
 
 plt.plot(df_nd_tokens.loc[:,"Ilość tokenów"], df_nd_tokens.loc[:,"Entropia"], 'r-', df_gw_tokens.loc[:,"Ilość tokenów"], df_gw_tokens.loc[:,"Entropia"], 'b-')
-plt.title("Porównanie entropii(oś y) obu gazet w stosunku do ilości tokenów(oś x)", fontsize=16)
+plt.title("Porównanie entropii(oś y) obu gazet w stosunku do ilości tokenów(oś x)", fontsize=12)
 # fig.suptitle('This is a somewhat long figure title', fontsize=16)
 plt.xlabel('Ilość Tokenów')
 plt.ylabel('Entropia')
@@ -194,23 +193,27 @@ plt.legend(("Nasz dziennik", "Gazeta wyborcza"), loc='lower right')
 plt.show()
 
 plt.plot(df_nd_tokens.loc[:,"Ilość tokenów"], df_nd_tokens.loc[:,"Wskaźnik entropii"], 'm-', df_gw_tokens.loc[:,"Ilość tokenów"], df_gw_tokens.loc[:,"Wskaźnik entropii"], 'g-')
-plt.title("Porównanie wzkaźnika entropii(oś y) obu gazet w stosunku do ilości tokenów(oś x)", fontsize=16)
+plt.title("Porównanie wzkaźnika entropii(y) obu gazet w stosunku do ilości tokenów(x)", fontsize=11)
 # fig.suptitle('This is a somewhat long figure title', fontsize=16)
 plt.xlabel('Ilość Tokenów')
 plt.ylabel('Wskaźnik entropii')
-plt.savefig('tokens_entropy.png')
+plt.savefig('tokens_entropy_rate.png')
 plt.legend(("Nasz dziennik", "Gazeta wyborcza"), loc='lower right')
 plt.show()
 
 
 
+
+
+
+
 # +
 # plt.plot(df_nd_tokens.loc[:,"Entropia"], df_nd_tokens.loc[:,"Wskaźnik entropii"], 'ro')
-plt.title("Korelacja entropii(oś y) i wskaźnika entropii dla Naszego Dziennika", fontsize=16)
+plt.title("Regresja linowa wskaźnika entropii (y) względem entropii(x) dla Naszego Dziennika", fontsize=10)
 # fig.suptitle('This is a somewhat long figure title', fontsize=16)
 plt.xlabel('Entropia')
 plt.ylabel('Wskaźnik entropii')
-plt.savefig('entropy_entrate_ND.png')
+
 # plt.legend(("Entropia", "Wskaźnik entropii"), loc='lower right')
 # plt.show()
 
@@ -222,6 +225,8 @@ Y_pred = linear_regressor.predict(X)
 
 plt.scatter(X, Y)
 plt.plot(X, Y_pred, color='red')
+
+plt.savefig('entropy_entrate_ND.png')
 plt.show()
 # -
 
@@ -229,11 +234,11 @@ plt.show()
 
 # +
 # plt.plot(df_nd_tokens.loc[:,"Entropia"], df_nd_tokens.loc[:,"Wskaźnik entropii"], 'ro')
-plt.title("Korelacja entropii(oś y) i wskaźnika entropii dla Gazety Wyborczej", fontsize=16)
+plt.title("Regresja linowa wskaźnika entropii (y) względem entropii(x) dla Gazety Wyborczej", fontsize=11)
 # fig.suptitle('This is a somewhat long figure title', fontsize=16)
 plt.xlabel('Entropia')
 plt.ylabel('Wskaźnik entropii')
-plt.savefig('entropy_entrate_GW.png')
+
 # plt.legend(("Entropia", "Wskaźnik entropii"), loc='lower right')
 # plt.show()
 
@@ -245,6 +250,7 @@ Y_pred = linear_regressor.predict(X)
 
 plt.scatter(X, Y)
 plt.plot(X, Y_pred, color='red')
+plt.savefig('entropy_entrate_GW.png')
 plt.show()
 # -
 
