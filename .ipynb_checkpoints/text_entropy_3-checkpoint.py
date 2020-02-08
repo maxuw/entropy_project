@@ -104,7 +104,7 @@ l_ent_mean = [l_ent_nd, l_ent_gw]
 
 l_ent_mean
 
-df_mean = pd.DataFrame(l_ent_mean, columns = ["Nazwa Gazety", "Średnia"])
+df_mean = pd.DataFrame(l_ent_mean, columns = ["Nazwa Gazety", "Średnia Entopia"])
 
 df_mean
 

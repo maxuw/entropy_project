@@ -1,6 +1,7 @@
 import os
 import re
 import string
+import EntropyCount
 
 os.environ['PATH'] = os.environ['PATH'] + ':udpipe-1.2.0-bin/bin-linux64/'
 
@@ -89,3 +90,23 @@ def whole_proces_polish(dir, filename, verbose=False):
     lemmas = find_lemmas(udpipe_output, verbose)
     return lemmas
 
+
+def preprocess_paper(dir_, articles_amount, paper_name):
+    list_articles = []
+
+    for n in range(articles_amount):
+        file = str(n) + ".txt"
+
+        prep = whole_proces_polish(dir_, file)
+        entropy, amount_tokens = EntropyCount.calculate_entropy_for_all_words(prep)
+
+        list_this = []
+        list_this.append(n)
+        list_this.append(paper_name)
+        list_this.append(prep[:3])
+        list_this.append(amount_tokens)
+        list_this.append(entropy)
+
+        list_articles.append(list_this)
+
+    return list_articles
